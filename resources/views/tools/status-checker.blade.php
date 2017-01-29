@@ -8,7 +8,8 @@
     <form method="post">
         <div class="row form-group">
             <div class="col-md-12">
-            <textarea id="url-input" name="source" class="form-control"
+                <small>You can check at most 200 URLs at one go.</small>
+                <textarea id="url-input" name="source" class="form-control"
                       rows="15">@if(!empty($urls)){{ $urls }}@endif</textarea>
                 <br>
                 <div class="text-center">

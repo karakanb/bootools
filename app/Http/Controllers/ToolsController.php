@@ -67,6 +67,8 @@ class ToolsController extends Controller {
             return view('tools.status-checker');
         }
 
+        $maxURLNumber = 200;
+
         // Get the input URLs.
         $urls = $request->source;
 
@@ -89,6 +91,7 @@ class ToolsController extends Controller {
         // Remove the duplicates and rebase the index.
         $seperateURLs = array_values(array_unique($seperateURLs));
         if(!empty($seperateURLs)) {
+            $seperateURLs = array_slice($seperateURLs, 0, $maxURLNumber);
             $seperateURLs = $this->CheckURLsInParallel($seperateURLs);
             uasort($seperateURLs, function ($a, $b) {
                 return $b['statusCode'] - $a['statusCode'];
