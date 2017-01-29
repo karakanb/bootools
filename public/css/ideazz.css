@@ -1,0 +1,155 @@
+body {
+    background-color: #e57066;
+    color: #28292b;
+}
+
+.full-screen-intro {
+    height: 100vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 15vh;
+}
+
+.seperator {
+    padding: 0;
+}
+
+.subintro h2 {
+    font-size: 5vh;
+}
+
+.subintro {
+    font-size: 3vh;
+    width: 50vw;
+}
+
+.full-screen-intro hr {
+    margin: 0;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.home-header {
+    font-family: 'Dancing Script', cursive;
+}
+
+.home-header h1 {
+    margin-top: 0;
+    font-size: 25vh;
+}
+
+.boardz li {
+    border-radius: 5px;
+}
+
+.boardz h1 {
+    font-size: 2rem;
+}
+
+.panel-footer span.glyphicon{
+    font-size: 1.2em;
+    transition: all 0.1s ease;
+}
+
+.panel-footer div {
+    display: inline-block;
+}
+
+.wall {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.idea-panel {
+    border: none;
+    border-bottom: 3px solid;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.idea-panel .panel-footer {
+    background-color: white;
+    height: 38px;
+    border: none;
+}
+
+.idea-panel .panel-heading {
+    border: none;
+    font-weight: bold;
+}
+
+.author-name {
+    color: #a8aeb1;
+}
+
+.wall span.glyphicon-heart{
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    font-size: 2.5rem;
+    padding-right: 1vw;
+    line-height: 1.4;
+}
+
+.panel-body {
+    padding: 5px 15px;
+}
+
+.panel-footer {
+    padding: 0 15px;
+}
+
+.wall span.glyphicon-heart:hover {
+    color: #e81c4f;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+.wall .liked {
+    color: #e81c4f;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
+
+.like-count {
+    font-size: 2rem;
+    vertical-align: super;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .home-header h1 {
+        font-size: 25vw;
+    }
+}
