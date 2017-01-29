@@ -1,7 +1,7 @@
 @extends('layouts.tool_view')
 
 @section('tool_header')
-    E-mail Extractor - extract e-mail addresses from any given text.
+    E-mail Extractor - extract e-mail addresses from any text.
 @endsection
 
 @section('tool_body')

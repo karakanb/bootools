@@ -18,16 +18,13 @@
         </div>
 
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
-            <!-- Left Side Of Navbar -->
-            <ul class="nav navbar-nav">
-                &nbsp;
-            </ul>
-
             <!-- Right Side Of Navbar -->
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ route('alphabetizer') }}">Alphabetizer</a></li>
                 <li><a href="{{ route('mail-extractor') }}">Mail Extractor</a></li>
                 <li><a href="{{ route('word-counter') }}">Word Counter</a></li>
+                <li><a href="{{ route('keyword-multiplier') }}">Keyword Multiplier</a></li>
+                <li><a href="{{ route('url-status-checker') }}">HTTP Status Checker</a></li>
             </ul>
         </div>
     </div>

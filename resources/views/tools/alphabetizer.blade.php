@@ -1,7 +1,7 @@
 @extends('layouts.tool_view')
 
 @section('tool_header')
-    Alphabetizer - alphabetically sort given text
+    Alphabetizer - alphabetically sort any text line by line or word by word.
 @endsection
 
 @section('tool_body')
